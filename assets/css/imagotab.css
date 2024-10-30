@@ -1,0 +1,22 @@
+.imago-tab-content .media-toolbar label { display:block;padding:0.5em 0.2em; }
+.imago-tab-content #paginator label { text-align:center; }
+.imago-tab-content .pagination-links,
+.imago-tab-content .pagination-links > a.button { vertical-align:middle; }
+.imago-tab-content .attachments.no-results { text-align:center; }
+.imago-tab-content .attachments.no-results label[for="search"] { font-size:4em;font-weight:200;line-height:2em;color:#bbb; }
+
+form#imago-download-form fieldset { padding:0.3em 0; }
+form#imago-download-form label { line-height:24px; }
+form#imago-download-form figure { margin:0; }
+form#imago-download-form figure > img { max-width:100%; }
+form#imago-download-form input[type="submit"] { margin:0.3em 0; }
+form#imago-download-form input[type="number"][name="width"],
+form#imago-download-form input[type="number"][name="height"] { max-width:76px;text-align:center; }
+
+.attachment-info table { width:92%;border-collapse:collapse; }
+.attachment-info table tr { background:#f8f8f8; }
+.attachment-info table tr:nth-child(odd) { background:#fff; }
+.attachment-info table th { text-align:right; }
+.attachment-info table th, .attachment-info table td { border:1px solid #ccc;padding:0.2em 0.4em; }
+
+.dl-status.dl-status-error { color:#f00; }
